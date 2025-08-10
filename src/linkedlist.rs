@@ -4,7 +4,7 @@ enum List<T> {
 }
 
 impl<T> Default for List<T> {
-    fn default() -> List<T> {
+    fn default() -> Self {
         List::Nil
     }
 }
